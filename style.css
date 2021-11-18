@@ -16,10 +16,6 @@ header {
   padding-bottom: 10px;
 }
 
-label {
-  color: white;
-}
-
 button {
   margin-right: 10px;
   padding: 2px 2px;
@@ -28,6 +24,11 @@ button {
 select {
   margin-right: 10px;
 }
+
+label {
+  color: white;
+}
+
 
 #movie-content {
   display: flex;

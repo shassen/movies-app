@@ -6,7 +6,7 @@ let popButton = document.getElementById('movies')
 const moviePoster = 'https://image.tmdb.org/t/p/w200';
 
 //create empty arrays to result and add favorites
-let favMovies = [];
+// let favMovies = [];
 let arr = [];
 let newArr = [];
 
@@ -53,7 +53,7 @@ function displayArr(newArr) {
 
       //create main card for movies
       movieEl.setAttribute('class', 'movie-card');
-      movieEl.setAttribute('onclick', 'showOverview(this)');
+      movieEl.setAttribute('onclick', 'showOverview(el)');
 
       //set class on img els and set url as src attr
       movieImg.setAttribute('class', 'movie-img');
@@ -74,8 +74,8 @@ function displayArr(newArr) {
       movieOverview.innerHTML = newArr[i].overview;
 
       //set class on button fave and change text to add to fav
-      movieFav.setAttribute('class', 'favorite');
-      movieFav.innerHTML = 'Add to Favorites'
+      // movieFav.setAttribute('class', 'favorite');
+      // movieFav.innerHTML = 'Add to Favorites'
 
       //append all els to main movie element
       let main = document.getElementById('movie-content');
@@ -156,19 +156,19 @@ function closeOverview(el) {
 }
 
 //set var with current page
-let currentPage = 1;
+// let currentPage = 1;
 
-//if user clicks Next, show 10 more results
-function next() {
-  currentPage++;
-  console.log(currentPage);
-}
+// //if user clicks Next, show 10 more results
+// function next() {
+//   currentPage++;
+//   console.log(currentPage);
+// }
 
-//if user clicks Back, show previous 10 results
-function back(){
-  if (currentPage === 1) {
-    console.log(currentPage);
-  } else {
-    console.log(currentPage--);
-  }
-}
+// //if user clicks Back, show previous 10 results
+// function back(){
+//   if (currentPage === 1) {
+//     console.log(currentPage);
+//   } else {
+//     console.log(currentPage--);
+//   }
+// }
