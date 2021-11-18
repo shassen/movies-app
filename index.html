@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Document</title>
+</head>
+<body>
+  <header id='header'>
+    <h2 id='header-msg'>Welcome to the Movies App!</h2>
+    <h5>Click any image to see a short summary of the movie. Click anywhere on the summary to exit.</h5>
+    <button type="button" id='movies'>Click me for Popular Movies!</button>
+
+    <label for="filter">Select your filter: </label>
+    <select name="filter" id="filter" onchange="filterMovies()">
+      <option value="title">Title</option>
+      <option value="year">Year</option>
+    </select>
+    
+    <label for="order">Select the order: </label>
+    <select name="order" id="order" onchange="filterMovies()">
+      <option value="ascend">Ascending</option>
+      <option value="descend">Descending</option>
+    </select>
+  </header><br>
+  
+  <main id='movie-content' class='main'></main>
+
+  <script src="./index.js" defer></script> 
+</body>
+</html>

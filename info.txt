@@ -1,0 +1,21 @@
+
+API Key = 9757cd26
+Append apikey=9757cd26 on the end of urls to return response from DB
+
+Example URL:
+http://www.omdbapi.com/?t=signs&apikey=9757cd26
+This will return information about the movie Signs from 2002
+
+Documentation for the site:
+http://www.omdbapi.com/
+
+
+usefull GA scripts:
+1. /unit02/lessons/quote-sta-gram
+
+2. /unit02/lessons/fetch-sql-practice
+  - api.js shows fetch functions
+
+3. /unit03/lessons/react docs
+
+
