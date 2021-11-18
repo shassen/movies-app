@@ -29,7 +29,6 @@ label {
   color: white;
 }
 
-
 #movie-content {
   display: flex;
   justify-content: flex-start;
@@ -44,20 +43,12 @@ label {
 }
 
 .movie-img {
-  background-size: contain;
-  background-repeat: no-repeat;
-  z-index: 2;
-  float: top;
   margin-right: 10px;
   width: 242px;
   height: 363px;
 }
 
-.movie-title {
-  text-align: center;
-}
-
-.movie-date {
+.movie-title, .movie-date {
   text-align: center;
 }
 
@@ -65,32 +56,23 @@ label {
   text-align: left;
 }
 
-#show-more {
+/* #show-more {
   text-align: center;
   opacity: 0;
   padding: 20px 0px;
-}
-
-.overview {
-  bottom: -65px;
-  width: 242px;
-  z-index: 4;
-  text-align: center;
-  opacity: 1;
-  position: absolute;
-}
+} */
 
 #overview-text {
   position: fixed;
+  display: flex;
   padding: 0px 30px;
-  border: 5px solid lightslategrey;
-  text-align: left;
-  width: 600px;
-  height: 300px;
-  background-color: white;
   justify-content: center;
   align-items: center;
-  display: flex;
+  background-color: white;
+  width: 600px;
+  height: 300px;
+  border: 5px solid lightslategrey;
+  text-align: left;
   top: 38%;
   left: 27%;
   align-content: center;

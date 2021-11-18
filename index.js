@@ -1,6 +1,6 @@
 
 //save popular movie button in el
-let popButton = document.getElementById('movies')
+let popButton = document.getElementById('movies');
 
 //store image of movie in el
 const moviePoster = 'https://image.tmdb.org/t/p/w200';
@@ -53,7 +53,7 @@ function displayArr(newArr) {
 
       //create main card for movies
       movieEl.setAttribute('class', 'movie-card');
-      movieEl.setAttribute('onclick', 'showOverview(el)');
+      movieEl.setAttribute('onclick', 'showOverview(this)');
 
       //set class on img els and set url as src attr
       movieImg.setAttribute('class', 'movie-img');
