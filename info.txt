@@ -19,3 +19,96 @@ usefull GA scripts:
 3. /unit03/lessons/react docs
 
 
+
+
+Nick Rucker - Support Team Lead: Interacting with Customers
+
+  1. Talk about a complex, technical concept that you had to explain to a non-technical customer:
+      - jQuery
+
+
+  2. How have you pushed back on a customer's request and/or convinced them of a 
+     better way of executing their desired solution?
+      - typically if I need to push back it's because we have a tight timeline or a product feature
+        is lacking in ability. 
+      - If I need to push back I simply communicate it in terms of this is the best thing for you and your end users.
+      - Discuss the customers desire for Smart Walk-Thrus and how SmartTips are better for engagement.
+      - Use data analysis to convince them of Walkme best practices
+    
+
+  3. Internal Communication: how do you handle when things are not working as anticipated? 
+     This could be delivery delays, bugs, etc
+     - If it is a fire drill, I escalate to my manager immediately who pulls in the proper resources to movie
+       quickly on the issues at hand. Otherwise, I will communicate interenally with parties that can help resolve
+       any issues.
+
+
+  4. How often do you communicate with customers? And, what is their typical role within a customer's organization?
+     - I communicate through all mediums really: Email, zoom and text occasionally. It really depends on their
+       preference. We do prefer zoom because we can record the sessions and give it to the client if it's more
+       technical and they need to review it.
+
+
+
+Ella Brand - Director of Tech Program Mgmt & Product Ops: Working Cross Functionally
+  1. Share an example of how you influenced a different team/stakeholder to help 
+     you make a decision in your project's favor? What did you learn?
+     - This happens all the time with product feature request and if I can gather enough evidence
+       to create the feature, I can influence product/dev to build it out for me and my clients.
+       I've learned that I need to approach teams with enough information and show how this could 
+       provide additional value to clients which ultimately helps Walkme.
+
+  2. How have you used data or analytics to adjust a project plan or even during execution after the 
+     first milestone results came in?
+     - I review analytics after two weeks of being live. Using the data I recommend more of what's working and less
+       of what isn't. I might scale back on features I built or scale depending on the results I see. If their
+       client is happy with the build as is, I set the stage for a phase two and provide suggestions based on findings
+
+  3. How do you clearly define what you need from someone else? 
+     When those needs are met or people don’t do what they say they are going to do, 
+     what is your typical path of escalation?
+     - I always give more information than necessary and I'll generally try to sync via screen Share
+       because I think it's entirely more efficient than slack or internal communication (at least for the intro).
+       Once they know what I need, slack is usually okay or google sheets/docs which is collaborative
+
+       If someone defaults on their commitment, I'll kindly remind them of what's needed and ask if they
+       can accomplish that within the timeframe or if someone else is more suitable, then who is it.
+
+       If it's something a client needs, then I will escalate after I've decided the colleague is 
+       not helpful. 
+
+
+  4. When you work with different departments how is the work typically divided? 
+     How do your objectives differ from the folks in other departments?
+     - I'm a technical resource so I typically handle all things technical. 
+
+
+  5. What are your best practices for virtual communication?
+     - Be available during work hours.
+     - respond ASAP to internal and external communication.
+     - send follow ups frequently if needed.
+     - screen share when possible over chats
+
+
+
+John Allee - Software Engineer ((former SSE): Technical Challenge
+
+  Feature set:
+    1. Users can see 10 movies at a time
+    2. List of movies is sorted by title by default
+    3. Users can choose to sort by title or year, ascending or descending
+    4. Users can click on a movie from the list to see what it's about
+
+  Bonus:
+    1. Users can page through the results
+    2. Users can add movies to a list of favorites shown adjacent the full list
+
+
+
+
+Prasad Kamthekar & Neil - Head of Engineering: Hiring Manager Review
+1. This will be a more technical conversation where you will be asked a few specific questions regarding your resume, 
+   looking for anecdotes regarding your listed experience.
+
+
+
